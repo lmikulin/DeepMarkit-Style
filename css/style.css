@@ -1,0 +1,155 @@
+@font-face {
+	font-family: 'Rodeo';
+	src: 
+		url('../fonts/rodeo/rodeo.ttf') format('truetype'),
+		url('../fonts/rodeo/rodeo.otf') format('otf'),
+		url('../fonts/rodeo/rodeo.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Elegant';
+	src: 
+		url('../fonts/elegant/elegant.ttf') format('truetype'),
+		url('../fonts/elegant/elegant.otf') format('otf'),
+		url('../fonts/elegant/elegant.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Shadser';
+	src: 
+		url('../fonts/shadser/shadser.ttf') format('truetype'),
+		url('../fonts/shadser/shadser.otf') format('otf'),
+		url('../fonts/shadser/shadser.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Showguide';
+	src: 
+		url('../fonts/showguide/showguide.ttf') format('truetype'),
+		url('../fonts/showguide/showguide.otf') format('otf'),
+		url('../fonts/showguide/showguide.woff') format('woff');
+}
+
+body {
+	background: #000;
+	padding: 0;
+	font-family: 'Elegant';
+	font-size: 18px;
+}
+
+li {
+	list-style: none;
+	position: relative;
+}
+
+li:before {
+	content: '-';
+	font-size: 48px;
+	color: #400;
+	font-family: 'Rodeo';
+	position: absolute;
+	left: -28px;
+	top: -16px;
+}
+
+.wrapper {
+	padding: 60px;
+	width: 1000px;
+	background: url(../images/ricepaper_v3.png);
+	background-repeat: repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rodeo {
+	font-family: 'Rodeo';
+}
+
+.threed {
+	font-family: 'Shadser';
+}
+
+.headline {
+	margin-top: 0;
+	font-size: 78px;
+	text-align: center;
+	letter-spacing: 10px;
+	line-height: 70px;
+	margin-bottom: 0;
+}
+
+.supersize {
+	font-size: 110px;
+}
+.super2 {
+	font-size: 120px;
+	vertical-align: middle;
+}
+.smaller {
+	font-size: 60px;
+}
+.star {
+	font-family: 'Rodeo';
+	font-size: 60px;
+	line-height: 1px;
+	vertical-align: middle;
+	color: #400;
+}
+.underleft, .underright {
+	position: relative;
+}
+.underleft:after {
+	content: "(";
+	position: absolute;
+	top: 70px;
+	right: 20px;
+}
+.underright:after {
+	content: ")";
+	position: absolute;
+	top: 70px;
+	left: 20px;
+}
+.glyph {
+	color: #400;
+}
+.muted {
+	color: #333;
+}
+
+.strip {
+	margin-top: 0;
+	border: none;
+	border-top: 4px solid #333;
+	border-bottom: 4px solid #333;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.poster {
+	text-align: center;
+}
+
+.wanted {
+	padding-top: 8px;
+	font-family: 'Shadser';
+	font-size: 40px;
+	border: none;
+	border-top: 4px double #333;
+	border-bottom: 4px double #333;
+	text-align: center;
+}
+.rider {
+	font-family: 'Rodeo';
+	font-size: 240px;
+	line-height: 200px;
+	position: relative;
+	top: 10px;
+}
+.wrangler {
+	font-family: 'Showguide';
+	font-size: 60px;
+}
+
+
