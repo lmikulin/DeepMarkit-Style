@@ -30,6 +30,14 @@
 		url('../fonts/showguide/showguide.woff') format('woff');
 }
 
+@font-face {
+	font-family: 'WWIcons';
+	src: 
+		url('../fonts/wwicons/wwicons.ttf') format('truetype'),
+		url('../fonts/wwicons/wwicons.otf') format('otf'),
+		url('../fonts/wwicons/wwicons.woff') format('woff');
+}
+
 body {
 	background: #000;
 	padding: 0;
@@ -128,13 +136,14 @@ li:before {
 }
 
 .poster {
+	margin-top: 30px;
 	text-align: center;
 }
 
 .wanted {
 	padding-top: 8px;
 	font-family: 'Shadser';
-	font-size: 40px;
+	font-size: 44px;
 	border: none;
 	border-top: 4px double #333;
 	border-bottom: 4px double #333;
@@ -142,14 +151,41 @@ li:before {
 }
 .rider {
 	font-family: 'Rodeo';
-	font-size: 240px;
-	line-height: 200px;
+	font-size: 270px;
+	line-height: 220px;
 	position: relative;
-	top: 10px;
+	top: 14px;
 }
 .wrangler {
 	font-family: 'Showguide';
 	font-size: 60px;
 }
 
+.lasoo-guy {
+	font-size: 190px;
+	font-family: 'WWIcons';
+	line-height: 140px;
+	margin-left: 100px;
+}
+
+.statement {
+	font-family: 'Showguide';
+	font-size: 42px;
+}
+
+.col {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+.col.left {
+	width: 29%;
+	padding-right: 3%;
+	border-right: 1px solid #777;
+}
+.col.right {
+	width: 33%;
+	padding-left: 3%;
+	border-left: 1px solid #777;
+}
 
